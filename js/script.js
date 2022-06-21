@@ -66,10 +66,6 @@ function carregarFunctions() {
             document.body.style.backgroundImage = 'url(img/madrugada.jpg)'
         }
 
-        document.body.style.backgroundRepeat = 'no-repeat'
-        document.body.style.backgroundSize = 'cover'
-        document.body.style.backgroundPosition = 'bottom'
-
     }, 1000)
 }
 
