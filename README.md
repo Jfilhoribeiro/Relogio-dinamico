@@ -10,4 +10,4 @@
 ## Este foi meu resultado:
 ![](https://user-images.githubusercontent.com/87453124/174844969-d2fb39c1-ecf1-43a4-9eb1-528180983843.png)
 
-## Acesse o link para ver o resultado: [](https://jfilhoribeiro.github.io/Relogio-dinamico/)
+## Acesse o link para ver o resultado: [jfilhoribeiro.github.io/Relogio-dinamico](https://jfilhoribeiro.github.io/Relogio-dinamico/)
