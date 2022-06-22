@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Relógio Dinâmico</title>
+    <meta name="title" content="Relógio Com Imagens de Fundo Dinâmica e Mais">
+    <meta name="description" content="Relógio e frases aleatórias, com imagens de fundo que alteram de acordo com os horários do dia">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jfilhoribeiro.github.io/Relogio-dinamico/">
+    <meta property="og:title" content="Relógio Com Imagens de Fundo Dinâmica e Mais">
+    <meta property="og:description" content="Relógio e frases aleatórias, com imagens de fundo que alteram de acordo com os horários do dia">
+    <meta property="og:image" content="https://user-images.githubusercontent.com/87453124/174844969-d2fb39c1-ecf1-43a4-9eb1-528180983843.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://jfilhoribeiro.github.io/Relogio-dinamico/">
+    <meta property="twitter:title" content="Relógio Com Imagens de Fundo Dinâmica e Mais">
+    <meta property="twitter:description" content="Relógio e frases aleatórias, com imagens de fundo que alteram de acordo com os horários do dia">
+    <meta property="twitter:image" content="https://user-images.githubusercontent.com/87453124/174844969-d2fb39c1-ecf1-43a4-9eb1-528180983843.png">
+
+    <!-- padrão -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- icones fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body onload="carregarFunctions()"> 
+    
+    <section class="phrase-content">
+        <h2>Frase do dia</h2>
+        <span id="phrase"></span>
+       <cite>
+            <a href="https://www.pensador.com/" target="_blank">Fonte: Pensador</a>
+       </cite> 
+    </section>
+
+    <section id="box-time">
+        <div class="text-hour">
+            <h2 id="hours"></h2>
+            <span>Horas</span>
+        </div>
+        <div class="text-hour">
+            <h2 id="minutes"></h2>
+            <span>Minutos</span>
+        </div>
+        <div class="text-hour" id="seconds-none">
+            <h2 id="seconds"></h2>
+            <span>Segundos</span>
+        </div>
+        
+    </section>
+    
+    <section class="social-content">
+        <ul>
+            <li class="social_links">
+                <a href="https://www.instagram.com/jfribeiro_/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li class="social_links">
+                <a href="https://www.linkedin.com/in/jos%C3%A9-filho-ribeiro-07871b217/" target="_blank" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li class="social_links">
+                <a href="https://github.com/Jfilhoribeiro" target="_blank" title="Github"><i class="fa-brands fa-github"></i></a>
+            </li>
+        </ul>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
